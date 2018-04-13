@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel_Test" parallel="tests" thread-count="2"
+	preserve-order="true">
+	<test name="Parallel Test in firefox_1">
+		<parameter name="myBrowser" value="firefox" />
+		<classes>
+			<class name="parallelTest.ParallelTest" />
+		</classes>
+	</test>
+	<test name="Parallel Test in chrome_2">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="parallelTest.ParallelTest" />
+		</classes>
+	</test>
+	<test name="Parallel Test in firefox_4">
+		<parameter name="myBrowser" value="firefox" />
+		<classes>
+			<class name="parallelTest.ParallelTest" />
+		</classes>
+	</test>
+	<test name="Parallel Test in chrome_5">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="parallelTest.ParallelTest" />
+		</classes>
+	</test>
+</suite>

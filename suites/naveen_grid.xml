@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="naveen_grid" parallel="tests" thread-count="2" preserve-order="true">
+	<test name="test_grid_1_chrome">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="com.grid.Naveen_Grid" />
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [naveen_grid]" parallel="tests">
+  <test name="test_grid_1_chrome(failed)" parallel="tests">
+    <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.grid.Naveen_Grid">
+        <methods>
+          <include name="testNaveen_Grid" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.grid.Naveen_Grid -->
+    </classes>
+  </test> <!-- test_grid_1_chrome(failed) -->
+</suite> <!-- Failed suite [naveen_grid] -->

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel_Test" duration-ms="79112" started-at="2018-04-10T14:21:44Z" finished-at="2018-04-10T14:23:03Z">
+    <groups>
+    </groups>
+    <test name="Parallel Test in firefox_1" duration-ms="29791" started-at="2018-04-10T14:21:44Z" finished-at="2018-04-10T14:22:14Z">
+      <class name="parallelTest.ParallelTest">
+        <test-method status="PASS" signature="getBrowser(java.lang.String)[pri:0, instance:parallelTest.ParallelTest@49993335]" name="getBrowser" is-config="true" duration-ms="15268" started-at="2018-04-10T19:51:44Z" finished-at="2018-04-10T19:51:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:parallelTest.ParallelTest@49993335]" name="loginTest" duration-ms="14130" started-at="2018-04-10T19:51:59Z" finished-at="2018-04-10T19:52:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parallelTest.ParallelTest@49993335]" name="tearDown" is-config="true" duration-ms="382" started-at="2018-04-10T19:52:13Z" finished-at="2018-04-10T19:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parallelTest.ParallelTest -->
+    </test> <!-- Parallel Test in firefox_1 -->
+    <test name="Parallel Test in firefox_4" duration-ms="14583" started-at="2018-04-10T14:22:14Z" finished-at="2018-04-10T14:22:28Z">
+      <class name="parallelTest.ParallelTest">
+        <test-method status="PASS" signature="getBrowser(java.lang.String)[pri:0, instance:parallelTest.ParallelTest@527740a2]" name="getBrowser" is-config="true" duration-ms="7975" started-at="2018-04-10T19:52:14Z" finished-at="2018-04-10T19:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:parallelTest.ParallelTest@527740a2]" name="loginTest" duration-ms="6173" started-at="2018-04-10T19:52:22Z" finished-at="2018-04-10T19:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parallelTest.ParallelTest@527740a2]" name="tearDown" is-config="true" duration-ms="432" started-at="2018-04-10T19:52:28Z" finished-at="2018-04-10T19:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parallelTest.ParallelTest -->
+    </test> <!-- Parallel Test in firefox_4 -->
+    <test name="Parallel Test in chrome_2" duration-ms="45711" started-at="2018-04-10T14:21:44Z" finished-at="2018-04-10T14:22:30Z">
+      <class name="parallelTest.ParallelTest">
+        <test-method status="PASS" signature="getBrowser(java.lang.String)[pri:0, instance:parallelTest.ParallelTest@6fc6f14e]" name="getBrowser" is-config="true" duration-ms="6132" started-at="2018-04-10T19:51:44Z" finished-at="2018-04-10T19:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:parallelTest.ParallelTest@6fc6f14e]" name="loginTest" duration-ms="38838" started-at="2018-04-10T19:51:50Z" finished-at="2018-04-10T19:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parallelTest.ParallelTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="723" started-at="2018-04-10T19:52:29Z" finished-at="2018-04-10T19:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parallelTest.ParallelTest -->
+    </test> <!-- Parallel Test in chrome_2 -->
+    <test name="Parallel Test in chrome_5" duration-ms="34674" started-at="2018-04-10T14:22:28Z" finished-at="2018-04-10T14:23:03Z">
+      <class name="parallelTest.ParallelTest">
+        <test-method status="PASS" signature="getBrowser(java.lang.String)[pri:0, instance:parallelTest.ParallelTest@6536e911]" name="getBrowser" is-config="true" duration-ms="4109" started-at="2018-04-10T19:52:28Z" finished-at="2018-04-10T19:52:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:parallelTest.ParallelTest@6536e911]" name="loginTest" duration-ms="29813" started-at="2018-04-10T19:52:32Z" finished-at="2018-04-10T19:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parallelTest.ParallelTest@6536e911]" name="tearDown" is-config="true" duration-ms="747" started-at="2018-04-10T19:53:02Z" finished-at="2018-04-10T19:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parallelTest.ParallelTest -->
+    </test> <!-- Parallel Test in chrome_5 -->
+  </suite> <!-- Parallel_Test -->
+</testng-results>

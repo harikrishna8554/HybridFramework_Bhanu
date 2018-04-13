@@ -1,0 +1,10 @@
+2018-04-10 18:40:18 INFO  TestBase:115 - loading config.properties
+2018-04-10 18:40:18 INFO  TestBase:120 - loading or.properties
+2018-04-10 18:40:18 INFO  TestBase:125 - loading homepage.properties
+2018-04-10 18:40:29 INFO  WaitHelper:33 - 20
+2018-04-10 18:40:29 INFO  WaitHelper:38 - 240
+2018-04-10 18:40:29 INFO  VerifyLowestFirstPriceFilter:27 - com.hybridFramework.productDetailsPage.VerifyLowestFirstPriceFilter started
+2018-04-10 18:40:39 INFO  WaitHelper:62 - element found...WOMEN
+2018-04-10 18:40:39 INFO  HomePage:63 - clickin on : WOMEN
+2018-04-10 18:40:42 INFO  WaitHelper:62 - element found...CATALOG
+2018-04-10 18:40:43 INFO  DropDownHelper:50 - Locator : [[FirefoxDriver: firefox on XP (dc5bd02f-c2ef-4038-bf05-0fc0838fbe6e)] -> xpath: //*[@id='selectProductSort']] Value : Price: Lowest first

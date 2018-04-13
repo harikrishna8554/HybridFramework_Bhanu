@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" >
+
+	<!-- <groups>
+		<run>
+			<include name="regression"></include>
+			<exclude name="sanity"></exclude>
+			<exclude name="smoke"></exclude>
+		</run>
+	</groups> -->
+
+	<listeners>
+		<listener class-name="listeners.RetryListener"></listener>
+	</listeners>
+	<test thread-count="5" verbose="3" name="Test" enabled="true">
+
+		<classes>
+			<class name="com.hybridFramework.examples.LoginToApplication" />
+			<class name="com.hybridFramework.examples.Registration" />
+			<class name="com.hybridFramework.examples.VerifyLowestFirstPriceFilter" />
+			<class name="com.hybridFramework.examples.VerifyProductsCount" />
+			<class name="com.hybridFramework.productBuy.PurchaseAProduct" />
+		</classes>
+	</test>
+
+</suite> 

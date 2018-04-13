@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [LoginTest]" parallel="tests">
+  <test name="FacebookLogin2(failed)" parallel="tests">
+    <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.grid.FaceBook">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="testFaceBook"/>
+        </methods>
+      </class> <!-- com.grid.FaceBook -->
+    </classes>
+  </test> <!-- FacebookLogin2(failed) -->
+  <test name="FacebookLogin4(failed)" parallel="tests">
+    <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.grid.FaceBook">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="testFaceBook"/>
+        </methods>
+      </class> <!-- com.grid.FaceBook -->
+    </classes>
+  </test> <!-- FacebookLogin4(failed) -->
+</suite> <!-- Failed suite [LoginTest] -->
